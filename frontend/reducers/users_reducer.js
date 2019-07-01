@@ -11,4 +11,4 @@ const usersReducer = (state = {}, action) => {
   }
 }
 
-export const usersReducer;
+export default usersReducer;
