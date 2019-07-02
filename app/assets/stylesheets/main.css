@@ -1,0 +1,36 @@
+body, html, main {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;  
+}
+
+.greet-cont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.greet-main-cont {
+  padding-top: 83px;
+  height: 100%;
+}
+
+.signup-form-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.signup-left, .signup-right {
+  display: inline-block;
+  width: 50%;
+}

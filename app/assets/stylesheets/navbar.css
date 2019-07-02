@@ -1,0 +1,24 @@
+.navbar-cont {
+  position: fixed;
+  top: 0;
+  height: 83px;
+  width: 100%;
+
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left-cont, .navbar-right-cont {
+  height: 100%;
+  width: 50%;
+}
+
+.logo1 {
+  width: 178px;
+  height: 58px;
+}
+

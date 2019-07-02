@@ -8,14 +8,18 @@ class Navbar extends React.Component {
   render() {
     let { signup, login, logout, currentUser } = this.props;
 
-    const loginLeft = (<div className="navbar-logo1">Facebook</div>)
+    const loginLeft = (
+      <div className="navbar-logo1">
+        <img className="logo1" src={'newlogo.png'} />
+      </div>
+    )
     const loginRight = (<LoginForm login={login} />)
 
     const logoutLeft = (
       <div className="navbar-logo2">SearchBar</div>
     )
     const logoutRight = (
-      <LoginForm login={login} />
+      <div>buttons</div>
     )
 
     return(
